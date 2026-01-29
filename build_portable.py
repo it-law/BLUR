@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
+"""#!/usr/bin/env python3
 """
+🔐 BLUR - Document Privacy Masking Tool
+...
+
+# Fix Windows encoding for GitHub Actions
+import sys
+import os
+if sys.platform.startswith('win'):
+    sys.stdout.reconfigure(encoding='utf-8')
+    os.system('chcp 65001 >nul 2>&1')
+
+import subprocess
+
 🔐 BLUR - Document Privacy Masking Tool
 Build Portable EXE Version with PyInstaller
 
