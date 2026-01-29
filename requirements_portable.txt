@@ -1,0 +1,40 @@
+# 🔐 BLUR - Document Privacy Masking Tool
+# Requirements for Building Portable EXE
+
+# Web Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+starlette==0.27.0
+
+# NLP & Text Processing
+spacy==3.7.2
+# Download spacy model after installation:
+# python -m spacy download ru_core_news_sm
+
+# Document Processing
+python-docx==0.8.11
+PyPDF2==3.0.1
+pdf2image==1.16.3
+Pillow==10.1.0
+
+# File Handling
+python-magic==0.4.27
+mimetypes-magic==0.4.1
+
+# Utilities
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.1.2
+
+# For PyInstaller (Portable EXE)
+pyinstaller==6.3.0
+altgraph==0.17.4
+
+# Optional: For development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.0
+flake8==6.1.0
